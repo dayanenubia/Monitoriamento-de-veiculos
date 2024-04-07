@@ -64,3 +64,10 @@ footer {
     padding: 10px; /* Espaçamento interno */
     border-radius: 0 0 10px 10px; /* Borda arredondada apenas na parte inferior */
 }
+
+#uploadedImage {
+    max-width: 100%; /* Defina a largura máxima da imagem para ser igual à largura do contêiner */
+    max-height: 400px; /* Defina a altura máxima da imagem conforme necessário */
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}

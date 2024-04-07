@@ -22,6 +22,8 @@ async function handleImageUpload(event) {
   reader.onload = async function() {
       const image = new Image();
       image.onload = async function() {
+          document.getElementById('uploadedImage').src = reader.result;
+          document.getElementById('uploadedImage').style.display = 'block';
           await predict(image);
       };
       image.src = reader.result;

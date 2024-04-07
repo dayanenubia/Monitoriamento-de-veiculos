@@ -16,13 +16,12 @@
       <p>do IFSULDEMINAS Machado</p>
     </header>
     <main>
-      <section class="upload-imagem">
-        <input type="file" id="inputImage" accept="image/*" class="input-file" onchange="handleImageUpload(event)">
-        <label for="inputImage" class="botao-upload">Selecionar Imagem</label>
-        <button type="button" class="botao-upload">Enviar</button>
-        <div id="result"></div>
-      </section>
-      <section>
+        <section class="upload-imagem">
+            <input type="file" id="inputImage" accept="image/*" class="input-file" onchange="handleImageUpload(event)">
+            <label for="inputImage" class="botao-upload">Selecionar Imagem</label>
+            <div id="result"></div>
+            <img id="uploadedImage" src="#" alt="Imagem Carregada" style="display: none;">
+        </section>        
         <div id="webcam-container"></div>
         <div id="label-container"></div>
       </section>
