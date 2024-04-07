@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #E6FFE6; /* Cor de fundo verde */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Define a altura mínima da página como a altura da viewport */
+}
+
+.container {
+    border: 2px solid #ccc; /* Bordas minimalistas */
+    border-radius: 10px; /* Borda arredondada */
+    margin: 20px auto; /* Margem externa - auto para centralizar horizontalmente */
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo na área principal */
+}
+
+footer {
+    margin-top: auto; /* Coloca o footer no final da página */
+    text-align: center; /* Centraliza o texto do footer */
+    background-color: #E6FFE6; /* Cor de fundo verde */
+    padding: 10px; /* Espaçamento interno */
+}
